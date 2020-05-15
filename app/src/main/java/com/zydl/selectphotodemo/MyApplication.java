@@ -1,6 +1,7 @@
 package com.zydl.selectphotodemo;
 
 import android.app.Application;
+import android.util.Log;
 
 import com.coder.zzq.smartshow.core.SmartShow;
 import com.yanzhenjie.album.Album;
@@ -21,5 +22,6 @@ public class MyApplication extends Application {
                 .setAlbumLoader(new MediaLoader())
                 .build()
         );
+        Log.d("Tet","001");
     }
 }
